@@ -102,29 +102,6 @@ class LoginPage extends StatelessWidget {
                               MaterialPageRoute(builder: (context) => const CadastroPage()),
                             );
                           },
-                          style: ButtonStyle(
-                            backgroundColor: const MaterialStatePropertyAll(
-                              Color.fromRGBO(30, 30, 30, 1),
-                            ),
-                            
-                            foregroundColor: const MaterialStatePropertyAll(
-                              Color.fromARGB(255, 255, 255, 255),
-                            ),
-                    
-                            padding: const MaterialStatePropertyAll(
-                              EdgeInsets.symmetric(vertical: 10, horizontal: 50)
-                            ),
-                    
-                            shape: MaterialStatePropertyAll(
-                              RoundedRectangleBorder(
-                                borderRadius: BorderRadius.circular(22),
-                              )
-                            ),
-            
-                            minimumSize: const MaterialStatePropertyAll(
-                              Size(270, 43)
-                            )
-                          ),
                           child: const Text(
                             'Entrar',
                             style: TextStyle(
