@@ -1,6 +1,6 @@
 {
-    "name": "tvra5",
-    "short_name": "tvra5",
+    "name": "fit_plain",
+    "short_name": "fit_plain",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

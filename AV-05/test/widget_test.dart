@@ -1,6 +1,7 @@
+import 'package:fit_plain/main.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:tvra5/main.dart'; // Certifique-se de ajustar o import para o caminho real do seu aplicativo
+
 
 void main() {
   testWidgets('Teste de Widget: Login e Navegação de Menu',
