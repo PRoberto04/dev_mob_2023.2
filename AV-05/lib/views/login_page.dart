@@ -1,9 +1,11 @@
+import 'package:fit_plain/views/cadastro_page.dart';
 import 'package:flutter/material.dart';
-import 'cadastro_page.dart';
+
 // import 'home_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
+  static const routeName = '/auth';
 
   @override
   Widget build(BuildContext context) {

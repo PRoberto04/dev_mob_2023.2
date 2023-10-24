@@ -1,6 +1,8 @@
-import 'package:flutter/material.dart';
+import 'package:fit_plain/transition_route_observer.dart';
+import 'package:fit_plain/views/login_page.dart';
 
-import 'login_page.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,9 +50,14 @@ class MyApp extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(3)),
           ),
         ),
-        
       ),
-      home: const LoginPage(),
+
+      //Navegação
+      navigatorObservers: [TransitionRouteObserver()],
+      initialRoute: LoginPage.routeName,
+      routes: {
+        LoginPage.routeName: (context) => const LoginPage(),
+      },
     );
   }
 }
