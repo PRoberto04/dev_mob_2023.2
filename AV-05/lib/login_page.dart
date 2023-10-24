@@ -59,30 +59,14 @@ class LoginPage extends StatelessWidget {
                   TextField(
                     decoration: InputDecoration(
                       labelText: 'exemplol@gmail.com',
-                      labelStyle: TextStyle( 
-                        color: Color.fromRGBO(0, 0, 0, 0.500), 
-                        fontWeight: FontWeight.w800, //Muda o peso da fonte
-                        ),
-                        border: OutlineInputBorder(
-                          borderRadius: BorderRadius.all(Radius.circular(3)),
-                        ),
                       ),
                   ),
 
                   SizedBox(height: 10,),
 
                   TextField(
-                    decoration: InputDecoration(
-                      
+                    decoration: InputDecoration(    
                       labelText: 'exemplosenha123', 
-                      labelStyle: TextStyle( 
-                        color: Color.fromRGBO(0, 0, 0, 0.500),  
-                        fontWeight: FontWeight.w800, //Muda o peso da fonte
-                        ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.all(Radius.circular(3))
-                      ),
-
                     ),
                     obscureText: true,
                   ),
