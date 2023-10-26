@@ -1,7 +1,7 @@
 import 'package:fit_plain/views/cadastro_page.dart';
+import 'package:fit_plain/views/home_page.dart';
 import 'package:flutter/material.dart';
 
-// import 'home_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -85,7 +85,7 @@ class LoginPage extends StatelessWidget {
                           onPressed: () {
                             // Adicione a lógica de autenticação aqui
                             Navigator.of(context).pushReplacement(
-                              MaterialPageRoute(builder: (context) => const CadastroPage()),
+                              MaterialPageRoute(builder: (context) => const HomePage()),
                             );
                           },
                           child: const Text(
