@@ -85,7 +85,7 @@ class LoginPage extends StatelessWidget {
                         //Botão que redireciona para a Home do aplicativo
                         ElevatedButton(
                           onPressed: () {
-                            // Adicione a lógica de autenticação aqui
+                            // Lógica de autenticação
                             Navigator.of(context).pushReplacement(
                               MaterialPageRoute(builder: (context) => const HomePage()),
                             );
