@@ -57,6 +57,7 @@ class LoginPage extends StatelessWidget {
               padding: EdgeInsets.symmetric(vertical: 0.0, horizontal: 20.0), //Define o espaçamento horizontal, para afastar os fields da borda
               
               child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   TextField(
                     decoration: InputDecoration(
@@ -78,7 +79,8 @@ class LoginPage extends StatelessWidget {
 
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 60.0, vertical: 10.0),
-                    child: Row(
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         //Botão que redireciona para a Home do aplicativo
                         ElevatedButton(

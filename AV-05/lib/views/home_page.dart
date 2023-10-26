@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
                 Text(
                   'Home',
                   style: TextStyle(
-                    color: Color.fromRGBO(0, 0, 0, 1),
+                    color: Color.fromRGBO(255, 255, 255, 1),
                   ),
                 ),
 
