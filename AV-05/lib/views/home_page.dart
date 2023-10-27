@@ -10,39 +10,33 @@ class HomePage extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Padding(
-              padding: EdgeInsets.symmetric(vertical: 0, horizontal: 20),
-              child: Stack(
-                alignment: Alignment.centerLeft,
-                children: [
-                  DecoratedBox(
-                    decoration: BoxDecoration(
-                      color: Color.fromRGBO(30, 30, 30, 1),
-                    ),
-                    child: SizedBox(
-                      width: double.infinity,
-                      height: 80,
-                    ),
+            Stack(
+              alignment: Alignment.centerLeft,
+              children: [
+                DecoratedBox(
+                  decoration: BoxDecoration(
+                    color: Color.fromRGBO(30, 30, 30, 1),
                   ),
-                  Row(
-                    children: [
-                      Text(
-                        "Home",
-                        style: TextStyle( color: Color.fromARGB(255, 255, 255, 255), fontSize: 30 ),
-                      ),
-
-                      SizedBox(width: 10,),
-
-                      Icon(
-                        Icons.account_circle_outlined,
-                        size: 50,
-                      ),
-                    ],
+                  child: SizedBox(
+                    width: double.infinity,
+                    height: 80,
                   ),
-                ],
-              ),
-
-
+                ),
+                Row(
+                  children: [
+                    Text(
+                      "Home",
+                      style: TextStyle( color: Color.fromARGB(255, 255, 255, 255), fontSize: 30 ),
+                    ),
+                    Spacer(), //Preenche todo o espaço vazio entre os elementos
+                    Icon(
+                      Icons.account_circle_outlined,
+                      size: 50,
+                      color: Color.fromARGB(255, 255, 255, 255),
+                    ),
+                  ],
+                ),
+              ],
             ),
           ],
         ),

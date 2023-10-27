@@ -2,7 +2,6 @@ import 'package:fit_plain/transition_route_observer.dart';
 import 'package:fit_plain/views/login_page.dart';
 
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
 void main() {
   runApp(const MyApp());
