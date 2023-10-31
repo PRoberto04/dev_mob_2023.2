@@ -5,7 +5,7 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Scaffold(
+    return Scaffold(
       backgroundColor: Color.fromARGB(255, 255, 255, 255),
       body: Center(
         child: Column(
@@ -26,7 +26,9 @@ class HomePage extends StatelessWidget {
                   children: [
                     Text(
                       "Home",
-                      style: TextStyle( color: Color.fromARGB(255, 255, 255, 255), fontSize: 30 ),
+                      style: TextStyle(
+                          color: Color.fromARGB(255, 255, 255, 255),
+                          fontSize: 30),
                     ),
 
                     Spacer(), //Preenche todo o espaço vazio entre os elementos
@@ -41,37 +43,63 @@ class HomePage extends StatelessWidget {
               ],
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Stack(
+              padding: const EdgeInsets.symmetric(vertical: 35, horizontal: 8),
+              child: Column(
                 children: [
-                  DecoratedBox(
-                    decoration: BoxDecoration(
-                      borderRadius: const BorderRadius.all(Radius.circular(4)),
-                      border: Border.all(
-                        color: const Color.fromRGBO(0, 0, 0, 1),
-                        width: 2,
-                        ),
-                    ),
-                    child: const SizedBox(
-                      width: double.infinity,
-                      height: 60,
-                    ),
-                  ),
-                  const Padding(
-                    padding: EdgeInsets.all(8.0),
-                    child: Text(
-                      "Monte sua ficha",
-                      style: TextStyle(
-                        color: Color.fromRGBO(0, 0, 0, 1),
-                        fontSize: 35,
-                  
+                  Align(
+                    alignment: Alignment.topCenter,
+                    child: ElevatedButton.icon(
+                      onPressed: () {},
+                      style: ButtonStyle(
+                        backgroundColor: MaterialStateProperty.all(const Color.fromARGB(255, 255, 255, 255)),
+                        iconColor: MaterialStateProperty.all(Colors.black54),
+                        shape: MaterialStateProperty.all( RoundedRectangleBorder( borderRadius: BorderRadius.circular(3))),
+                        side: MaterialStateProperty.all( const BorderSide( color: Color.fromRGBO(0, 0, 0, 1)))
                       ),
+                      label: const Text(
+                        "Monte sua ficha",
+                        style: TextStyle(
+                          fontSize: 22,
+                          color: Color.fromRGBO(0, 0, 0, 1),
+                          fontWeight: FontWeight.w400,
+                        ),
+                      ),
+                      icon: const Icon(Icons.arrow_forward_outlined),
                     ),
-                  ),
+                  )
                 ],
               ),
             ),
 
+            const Padding(
+              padding: EdgeInsets.symmetric( horizontal: 8),
+
+              child: Column(
+                children: [
+                  
+                  Divider(
+                    color: Colors.black,
+                    thickness: 2,
+                  ),
+
+                  Align(
+                    alignment: Alignment.topLeft,
+                    child: Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 14),
+                      child: Text(
+                        'Divisão semanal',
+                        style: TextStyle(
+                          fontWeight: FontWeight.w600,
+                          fontSize: 24,
+                        ),
+                      )
+                    ),
+                  )
+
+                  
+                ],
+              ),
+            ),
           ],
         ),
       ),

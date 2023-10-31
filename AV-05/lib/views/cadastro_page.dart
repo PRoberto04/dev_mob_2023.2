@@ -1,6 +1,7 @@
 import 'package:fit_plain/views/home_page.dart';
+import 'package:fit_plain/views/login_page.dart';
 import 'package:flutter/material.dart';
-import 'login_page.dart';
+
 
 class CadastroPage extends StatelessWidget {
   const CadastroPage({super.key});

@@ -1,5 +1,6 @@
 import 'package:fit_plain/transition_route_observer.dart';
 import 'package:fit_plain/views/login_page.dart';
+import 'package:fit_plain/views/splash_screen.dart';
 
 import 'package:flutter/material.dart';
 
@@ -49,15 +50,16 @@ class MyApp extends StatelessWidget {
             borderRadius: BorderRadius.all(Radius.circular(3)),
           ),
         ),
-
       ),
 
+      home: SplashScreen(),
       //Navegação
       navigatorObservers: [TransitionRouteObserver()],
       initialRoute: LoginPage.routeName,
       routes: {
         LoginPage.routeName: (context) => const LoginPage(),
       },
+
     );
   }
 }
