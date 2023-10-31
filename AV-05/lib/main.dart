@@ -52,11 +52,11 @@ class MyApp extends StatelessWidget {
         ),
       ),
 
-      home: SplashScreen(),
       //Navegação
       navigatorObservers: [TransitionRouteObserver()],
-      initialRoute: LoginPage.routeName,
+      initialRoute: '/splah',
       routes: {
+        '/splah': (context) => const SplashScreen(),
         LoginPage.routeName: (context) => const LoginPage(),
       },
 
