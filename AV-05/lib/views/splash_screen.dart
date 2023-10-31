@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
 
-    Timer(const Duration(seconds: 3), () {
+    Timer(const Duration(seconds: 4), () {
       Navigator.pushReplacement(
           context,
           MaterialPageRoute(
@@ -34,11 +34,28 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Stack(
           alignment: Alignment.center,
           children: [
-            Image.asset(
-              './assets/images/haltere-icon.png',
-              height: 100,
-              width: 100,
-              )
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    './assets/images/haltere-icon.png',
+                    height: 300,
+                    width: 300,
+                    ),
+            
+                    const Text(
+                      'Fit Plan',
+                      style: TextStyle(
+                        fontSize: 50,
+                        fontWeight: FontWeight.w300,
+                        fontStyle: FontStyle.italic,
+                      ),
+                    ),
+                ],
+              ),
+            )
             ],
         ),
       ),
