@@ -14,29 +14,29 @@
 
 ## Estrutura de pastas da APP:
 
-├──lib
-├── posts
-│   ├── bloc
-│   │   └── post_bloc.dart
-│   │   └── post_event.dart
-│   │   └── post_state.dart
-│   ├── models
-│   │   └── models.dart
-│   │   └── post.dart
-│   ├── view
-│   |   └── posts_list.dart
-│   |   └── posts_page.dart
-│   |   └── view.dart
-|   ├── widgets
-│   |   └── bottom_loader.dart
-│   |   └── post_list_item.dart
-│   |   └── widgets.dart
-│   └── posts.dart
-├── app.dart
-├── main.dart
-└── simple_bloc_observer.dart
-pubspec.lock
-pubspec.yaml
+- `/lib`
+    - `/posts`
+        - `/bloc`
+            - `post_bloc.dart`
+            - `post_event.dart`
+            - `post_state.dart`
+        - `/models`
+            - `models.dart`
+            - `post.dart`
+        - `/view`
+            - `posts_list.dart`
+            - `posts_page.dart`
+            - `view.dart`
+        - `widgets`
+            - `bottom_loader.dart`
+            - `post_list_item.dart`
+            - `widgets.dart`
+    - `posts.dart`
+    - `app.dart`
+    - `main.dart`
+    - `simple_bloc_observer.dart`
+- `pubspec.lock`
+- `pubspec.yaml`
 
 **A estrutura do projeto feita anteriormente refere-se apenas à pasta "lib" que foi modificada/analisada para resolução da avaliação**
 
