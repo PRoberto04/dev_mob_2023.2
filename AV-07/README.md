@@ -1,9 +1,8 @@
 # Avaliação 7 -> Persistence data with SQLite
     Esse repositório tem como intuito armazenar os códigos que foram necessários para realização da avaliação 07.
     O professor Ricardo Duarte Taveira instruiu a turma sobre a utilização do banco de dados sqlite e essa 
-    avaliação está para mostrar 
-    os aprendizados. Ao fim desse README estão  as informações do projeto "flutter_db_test" que é fornecido na 
-    plataforma da documentação.
+    avaliação está para mostrar  os aprendizados. Ao fim desse README estão  as informações do projeto 
+    "flutter_db_test" que é fornecido na plataforma da documentação.
 
 ## Print do simulador com  o nome do aluno:
 
