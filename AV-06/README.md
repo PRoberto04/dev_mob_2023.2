@@ -1,6 +1,8 @@
 # Avaliação 6 -> Block library
     Esse repositório tem como intuito armazenar os códigos que foram necessários para realização da avaliação 06.
-    O professor Ricardo Duarte Taveira instruiu a turma sobre a biblioteca Block e essa avaliação está para mostrar os aprendizados por meio da resolução do problema passado e a elaboração de questões. Ao fim desse README estão as informações do projeto "flutter list" que é fornecido na plataforma da documentação.
+    O professor Ricardo Duarte Taveira instruiu a turma sobre a biblioteca Block e essa avaliação está para mostrar 
+    os aprendizados por meio da resolução do problema passado e a elaboração de questões. Ao fim desse README estão 
+    as informações do projeto "flutter list" que é fornecido na plataforma da documentação.
 
 ## Perguntas elaboradas a pedido do professor:
     1. Explique como o Bloc ajuda na separação de responsabilidades em um aplicativo Flutter. E complemente explicando a importância de tal separação.
