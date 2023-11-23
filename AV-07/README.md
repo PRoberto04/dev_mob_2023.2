@@ -6,7 +6,7 @@
 
 ## Print do simulador com  o nome do aluno:
 
-![Texto Alternativo](/print_av07.png)
+![Texto Alternativo](print_av07.png)
 
 # flutter_db_test
 
